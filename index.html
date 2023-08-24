@@ -6,17 +6,19 @@
 <link href="estilos.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2? family=Bonheur+Royale&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bonheur+Royale&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <header>
-		<nav class="nav">
-			<ul> 
-			  <a href="#sobremi"> <li>sobre mi </li></a>
-			  <a href="#experiencia"> <li>experiencia </li></a>
-			  <a href="#estudios"> <li>estudios </li></a>
-			  <a href="#contacto"> <li>contacto </li></a>
+  <nav class="nav">
+			<ul class="navul"> 
+				<li><a href="#sobremi" class="navli">sobre mi</a></li>
+				<li><a href="#experiencia" class="navli">experiencia</a></li>
+				<li><a href="#estudios" class="navli">estudios</a></li>
+				<li><a href="#contacto" class="navli">contacto</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -24,56 +26,62 @@
 		<section class="section1"> 
 			<h1 class="titulo1">Laura Batista</h1>
 			<h2 class="titulo2">Laura Batista</h2>
-        	<img src="Sin título-1.png" alt="laura"/>
 		</section>
 		<section class="section2"> 
-			<h3 id="sobremi">sobre mi</h3>
-			<p>Soy de Argentina, actualmente estoy estudiando diseño gráfico, cursando mi cuarto año. me encanta la fotogrtafía y viajar. Me encuentro buscando un trabajo 100% remoto que me permita continuar con mis estudios. Tengo amplia disponibilidad horaria, poseo una buena conexión a internet y un computador equipado por completo (audífonos, micrófono, placa de vídeo, etc). </p>
-	   		<img src="WhatsApp Image 2023-08-11 at 17.15.02 (2).jpeg" alt="tren"/> 
-			<img src="WhatsApp Image 2023-08-11 at 17.17.43.jpeg" alt="toph"/>
-			<img src="WhatsApp Image 2023-08-11 at 17.15.02 (1).jpeg" alt="viejos"/>
-			<img src="WhatsApp Image 2023-08-11 at 17.25.13.jpeg" alt="mar"/> 
-			<img src="WhatsApp Image 2023-08-11 at 17.15.24.jpeg" alt="casa"/>
+				<h3 id="sobremi">sobre mi</h3>
+				<p class="psobremi">Soy de Argentina, actualmente estoy estudiando diseño gráfico, cursando mi cuarto año. Me encuentro buscando un trabajo 100% remoto que me permita continuar con mis estudios. Tengo amplia disponibilidad horaria, poseo una buena conexión a internet y un computador completamente equipado. Me gusta mucho la fotografía y viajar, mi aspiración es conseguir un trabajo que me permita realizar mis actividades favoritas. </p>
+			<div class="fotos">
+	   			<img src="imagenes/tren.jpg" alt="tren" id="tren"/>
+				<img src="imagenes/toph.jpg" alt="toph" id="toph"/>
+				<img src="imagenes/abuelos.jpg" alt="abuelos" id="abuelos"/>
+				<img src="imagenes/mar.jpg" alt="mar" id="mar"/>
+				<img src="imagenes/casa.jpg" alt="casa" id="casa"/>
+			</div>
 		</section>
 		<section class="section3">
 			<h3 id="experiencia">experiencia</h3>
-			<span>marzo 2019 - agosto 2019</span>
-			<span> 2019 - actualidad</span>
-			<span>febrero 2023</span>
-			<span>2016 - actulidad</span>
-	   		 <img src="Kevin Lucbert.jpg" alt="dibujo"/> 
-			<span>mundo bar (manejo de redes sociales 
-				y diseño de publicaciones) </span>
-			<span>hospital veterinario de llavallol
- 				(administrativo y atención al público)
-			</span>
-			<span>pizzería inferna (manejo de redes sociales 
-				y diseño de publicaciones)</span>
-			<span>fotografía Freelance</span>
-		<section class="section4"></section>
+			<div class="divexp">
+				<ol class="olexpfechas">
+					<li>marzo 2019 - agosto 2019</li>
+					<li> 2019 - actualidad</li>
+					<li>febrero 2023</li>
+					<li>2016 - actulidad</li>
+				</ol>
+	   			<img src="imagenes/dibujo.jpg" alt="dibujo"/> 
+				<ol class="olexp">
+					<li>mundo bar (manejo de redes sociales y diseño de publicaciones) </li>
+					<li>hospital veterinario de llavallol (administrativo y atención al público)</li>
+					<li>pizzería inferna (manejo de redes sociales y diseño de publicaciones)</li>
+					<li>fotografía Freelance</li>
+			</ol>
+			</div>
+		</section>
+		<section class="section4">
 			<h3 id="estudios">estudios</h3>
-	   		<img src="WhatsApp Image 2023-08-17 at 10.24.58.jpeg" alt="escudo montessori"/>
-			<img src="WhatsApp Image 2023-08-17 at 10.24.59.jpeg" alt="escudo unla"/>
-			<img src="WhatsApp Image 2023-08-17 at 10.24.59 (1).jpeg" alt="escudo it"/>
-			<span>2010 - 2016</span>
-			<span> 2018 - aCtualmente</span>
-			<span> octubre 2017</span>
-			<span>educación secundaria
- 				obligatoria completa</span>
-			<span>licenciatura en diseño y 
-				comunicación visual
- 				universidad nacional de Lanus</span>
-			<span>curso Educación IT de
- 				adobe Illustrator CC  </span>
+			<div class="divest">
+	   			<img src="imagenes/logo-montessori.jpg" alt="escudo montessori"/>
+				<img src="imagenes/logo-unla.jpg" alt="escudo unla" id="dibujo"/>
+				<img src="imagenes/logo-it.jpg" alt="escudo it"/>
+				<ol class="olestfechas">
+					<li>2010 - 2016</li>
+					<li>2018 - actualmente</li>
+					<li>octubre 2017</li>
+				</ol>
+				<ol class="olest">
+					<li>educación secundaria obligatoria completa</li>
+					<li>licenciatura en diseño y comunicación visual universidad nacional de Lanus</li>
+					<li>curso Educación IT de adobe Illustrator CC</li>
+				</ol>
+			</div>
 		</section>
 	</main>
 		<footer> 
-			<h3 id="contacto">contacto</h3>
-	   		<img src="WhatsApp Image 2023-08-17 at 11.24.58.png" alt="mail"/> 
-			<img src="WhatsApp Image 2023-08-17 at 11.24.58AA.png" alt="tel"/>
-			<span>BATISTALAURADANIELA@GMAIL.COM</span>
+		  <h3 id="contacto">contacto</h3>
+	   		<img src="imagenes/mail.png" alt="mail"/> 
+			<img src="imagenes/tel.png" alt="tel"/>
+			<a href="mailto:batistalauradaniela@gmail.com">batistalauradaniela@gmail.com</a>
 			<span>1138470870</span>
-			<img src="WhatsApp Image 2023-08-17 at 11.24.58.jpg" alt="nieve"/> 
+			<img src="imagenes/nieve.jpg" alt="nieve"/> 
 		</footer>
-</body>
+	</body>
 </html>

@@ -1,6 +1,148 @@
 @charset "utf-8";
 /* CSS Document */
-.nav {color: #0101DF;
-	font-size: 30px;
-	font-family: 'Bonheur Royale', cursive;
-	}
+.nav 	
+		{color:#0101DF;
+		font-size: 30px;
+		font-family: 'Bonheur Royale', cursive;
+		display: inline-block;
+		}
+.navul
+		{list-style-type: none;
+		display: flex;
+		justify-content: center;
+		}
+.navli
+		{margin: 0px 180px;
+		}
+.section1
+		{background-image: url("imagenes/laura.png");
+		background-repeat: no-repeat;
+		background-size: 40%;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+		
+
+.titulo1 
+		{color:#0101DF;
+		font-family: 'Bonheur Royale', cursive;
+		font-size: 250px;
+		font-weight: 500;
+		padding: 15% 0;
+		margin: 0;
+		}
+.titulo2
+		{color:#ffffff;
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 150px;
+		font-weight: 500;
+		position: absolute;
+		margin: 0;
+		}
+.section2
+		{padding-top: 100px;
+		}
+#sobremi
+		{font-family: 'Bebas Neue', sans-serif;
+		color:#0101DF;
+		font-size: 40px;
+		font-weight: 500;
+		display: flex;
+		justify-content: center;
+		}
+.psobremi
+		{font-family: 'Bebas Neue', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		text-align: center;
+		margin: 0 250px;	
+		}
+.fotos 
+		{display: flex;
+    	align-items: flex-end;
+		margin-bottom: 200px;
+		margin-top: 100px;}
+#tren 
+		{margin: 60px 5px 0 150px;
+		}
+#toph 
+		{margin: 5px;
+		}
+#abuelos 
+		{margin: 0 5px;
+		}
+#mar 
+		{margin: 0 5px;
+		}
+#casa 
+		{margin: 60px 150px 0 5px;
+		}
+#experiencia
+		{font-family: 'Bebas Neue', sans-serif;
+		color:#0101DF;
+		font-size: 40px;
+		font-weight: 500;
+		display: flex;
+		justify-content: center;
+		}
+.divexp
+		{display: flex;
+		justify-content: center;
+		margin-top: 100px;
+		}
+.olexpfechas
+		{font-family: 'Bebas Neue', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		list-style-type: none;
+		margin: 0 30px 0 0;
+		text-align:right;
+		padding-left: 311.891px;
+		}
+.olexp
+		{font-family: 'Bebas Neue', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		list-style-type: none;
+		margin: 0 0 0 30px;
+		padding: 0;
+		}
+#dibujo
+		{margin:0;
+		padding:0;
+		}
+#estudios
+		{font-family: 'Bebas Neue', sans-serif;
+		color:#0101DF;
+		font-size: 40px;
+		font-weight: 500;
+		display: flex;
+		justify-content:center;
+		padding-top:100px;
+		}
+.olestfechas
+		{font-family: 'Bebas Neue', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		list-style-type: none;
+		margin: 0 30px 0 0;
+		text-align:center;
+		display: flex;
+		}
+.olest
+		{font-family: 'Bebas Neue', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		list-style-type: none;
+		margin: 0 30px 0 0;
+		text-align:center;
+		display: flex;
+		}
+.divest
+		{display:flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		}
