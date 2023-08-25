@@ -1,11 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
+* 
+		{margin: 0;
+		padding: 0;
+		}
+body
+		{display: grid;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden}
 /*--nav--*/
 .nav 	
-		{color:#0101DF;
-		font-size: 30px;
+		{font-size: 40px;
 		font-family: 'Bonheur Royale', cursive;
-		display: inline-block;
+		padding: 50px 0 0 0;
+		/*background-color: #182226;--inicio--*/
+		position: absolute
 		}
 .navul
 		{list-style-type: none;
@@ -15,118 +26,153 @@
 .navli
 		{margin: 0px 180px;
 		text-decoration: none;
+		color:#F2F2F2;
 		}
 /*--inicio--*/
 .section1
-		{background-image: url("imagenes/laura.png");
+		{background-image: url("imagenes/montaña.JPG");
 		background-repeat: no-repeat;
-		background-size: 40%;
+		background-size: 100%;
 		background-position: center;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		align-items: center; 
+		/*background-color: #182226;--inicio--*/
 		}
-		
 
 .titulo1 
-		{color:#0101DF;
+		{color:#1A2E40;
 		font-family: 'Bonheur Royale', cursive;
 		font-size: 250px;
 		font-weight: 500;
-		padding: 15% 0;
-		margin: 0;
+		padding: 35% 0;
+		margin: 0;	
+		
 		}
 .titulo2
-		{color:#ffffff;
+		{color:#F2F2F2;
 		font-family: 'Bebas Neue', sans-serif;
 		font-size: 150px;
 		font-weight: 500;
 		position: absolute;
-		margin: 0;
-		}
+		top:42%;
+		left:30%}
+/*.box
+		{background-color: #000000;
+		opacity: 0.5;
+		border-radius: 40px;
+		box-sizing: border-box;
+		width: 0;
+		height: 0;
+		display: flex;
+		padding: 20% 45%;*/
+		
 /*--sobre mi--*/
 .section2
-		{padding-top: 100px;
+		{padding-top: 150px;
+		background-color: #1A2E40;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		padding-bottom: 150px;
+		}
+.divsec2
+		{background-image: url( "imagenes/banco.JPG");
+		box-shadow: 2px 2px 4px #000000;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		width: 70%;
+		background-color: #000000;
+		opacity: 0.7;
 		}
 #sobremi
 		{font-family: 'Bebas Neue', sans-serif;
-		color:#0101DF;
+		color:#1A2E40;
 		font-size: 40px;
 		font-weight: 500;
-		display: flex;
-		justify-content: center;
+		padding: 10% 0 40% 10%;
 		}
 .psobremi
 		{font-family: 'Bebas Neue', sans-serif;
 		font-size: 20px;
 		font-weight: 500;
 		text-align: center;
-		margin: 0 250px;	
+		color: #0E3659;
+		padding: 0 0 0 0; 
+		background-color: #FFFFFF;
+		opacity: 0.5;
+		border-radius: 10%;
+		
 		}
 .fotos 
-		{display: flex;
-    	align-items: flex-end;
-		margin-bottom: 200px;
-		margin-top: 100px;}
-#tren 
-		{margin: 60px 5px 0 150px;
-		}
-#toph 
-		{margin: 5px;
-		}
-#abuelos 
-		{margin: 0 5px;
-		}
-#mar 
-		{margin: 0 5px;
-		}
-#casa 
-		{margin: 60px 150px 0 5px;
-		}
+		{padding: 0 15% 0 10%;}
+
 /*--experiencia--*/
-#experiencia
-		{font-family: 'Bebas Neue', sans-serif;
-		color:#0101DF;
-		font-size: 40px;
-		font-weight: 500;
-		display: flex;
-		justify-content: center;
+.section3 
+		{margin: 0;
+		padding: 0;
+		background-color: #F2F2F2;
+		background-image: url("imagenes/mar.JPG");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 26%
+
 		}
 .divexp
 		{display: flex;
 		justify-content: center;
-		margin-top: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		background-color: #000000;
+		opacity: 0.5;
+		margin: 0 0 0% 25%;
+		padding-top: 3%;
+		box-sizing: border-box;
 		}
 .olexpfechas
 		{font-family: 'Bebas Neue', sans-serif;
 		font-size: 20px;
 		font-weight: 500;
 		list-style-type: none;
-		margin: 0 30px 0 0;
-		text-align:right;
-		padding-left: 311.891px;
+		color: #E9EFF2;
 		}
-.olexp
+.liexp
+		{padding: 0 0 15% 30%
+		}
+#experiencia
 		{font-family: 'Bebas Neue', sans-serif;
-		font-size: 20px;
+		color:#1A2E40;
+		font-size: 40px;
 		font-weight: 500;
-		list-style-type: none;
-		margin: 0 0 0 30px;
-		padding: 0;
-		}
-#dibujo
-		{margin:0;
-		padding:0;
+		padding: 0% 0 10% 10%;
+		height: 50px;
+		position: relative;
+		top: 100px;
 		}
 /*--estudios--*/
+.section4
+		{background-color: #1A2E40;
+		display: grid;
+		justify-items: center;	
+		}
 #estudios
 		{font-family: 'Bebas Neue', sans-serif;
-		color:#0101DF;
+		color:#8EA3BF;
 		font-size: 40px;
 		font-weight: 500;
 		display: flex;
 		justify-content:center;
-		padding-top:100px;
+		padding-top:10%;
+		padding-bottom: 10%
 		}
 .olestfechas
 		{font-family: 'Bebas Neue', sans-serif;
@@ -135,7 +181,12 @@
 		list-style-type: none;
 		margin: 0 30px 0 0;
 		text-align:center;
+		color: #E9EFF2;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 5% 70% 0
+		
 		}
 .olest
 		{font-family: 'Bebas Neue', sans-serif;
@@ -144,13 +195,19 @@
 		list-style-type: none;
 		margin: 0 30px 0 0;
 		text-align:center;
+		color: #E9EFF2;
 		display: flex;
-		}
-.divest
-		{display:flex;
-		flex-wrap: wrap;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: center;
+		padding-bottom: 10%;
+		padding: 5%;
+		width: 100%;
+		}
+.edfechasa, .edfechasb, .edfechasc 
+		{padding: 0 13%;
+		}
+#logomontessori, #logounla, #logoit
+		{padding: 0 10%
 		}
 /*--footer--*/
 footer
@@ -158,10 +215,11 @@ footer
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-position: center;
+		
 		}
 #contacto
 		{font-family: 'Bebas Neue', sans-serif;
-		color:#ffffff;
+		color:#E9EFF2;
 		font-size: 40px;
 		font-weight: 500;
 		display: flex;
@@ -169,13 +227,13 @@ footer
 		padding-top: 50px;
 		}
 .mail
-		{color:#ffffff;
+		{color:#E9EFF2;
 		font-size: 20px;
 		font-weight: 500;
 		text-decoration: none;
 		}
 .numero
-		{color:#ffffff;
+		{color:#E9EFF2;
 		font-size: 20px;
 		font-weight: 500;
 		}
